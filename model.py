@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_TOKEN = os.getenv("HF_API_KEY")
-API_URL = "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+API_URL = "https://api-inference.huggingface.co/models/meta-llama/Llama-4-Scout-17B-16E-Instruct"
 
 headers = {
     "Authorization": f"Bearer {API_TOKEN}"
