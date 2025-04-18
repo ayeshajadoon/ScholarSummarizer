@@ -7,7 +7,7 @@ It leverages Hugging Face transformer models to help students and researchers qu
 
 ## 🌐 Live Demo
 
-🔗 **Try it out here:** [Scholar Summarizer on Railway](https://web-production-31d3.up.railway.app/)
+🔗 **Try it out here:** [ScholarSummarizer](https://web-production-31d3.up.railway.app/)
 
 ---
 
