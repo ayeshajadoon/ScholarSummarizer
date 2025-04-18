@@ -11,7 +11,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_TOKEN = os.getenv("HF_API_KEY")
-API_URL = "https://api-inference.huggingface.co/models/meta-llama/Llama-4-Scout-17B-16E-Instruct"
+print(f"Token loaded: {API_TOKEN}")
+API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
 
 headers = {
     "Authorization": f"Bearer {API_TOKEN}"
