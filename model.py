@@ -1,6 +1,7 @@
 import requests
 import re
 import os
+
 def sanitize_text(text):
     # Remove special characters and non-standard characters
     cleaned_text = re.sub(r'[^A-Za-z0-9\s,.!?]', '', text)  # Keep only alphanumeric characters and common punctuation
@@ -9,9 +10,8 @@ def sanitize_text(text):
 from dotenv import load_dotenv
 load_dotenv()
 
-
 API_TOKEN = os.getenv("HF_API_KEY")
-API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
+API_URL = "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
 
 headers = {
     "Authorization": f"Bearer {API_TOKEN}"
